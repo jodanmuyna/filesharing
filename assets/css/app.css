@@ -1,0 +1,73 @@
+.main-title{
+	background-color: rgba(72, 73, 78, 0.2);
+}
+.content-body p{
+	word-wrap: break-word;
+}
+
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: #000;
+    background: #00a8ff;
+}
+.dropdown li>a{
+	color: #fff;
+    font-weight: bold;
+}
+nav.navbar .navbar-nav .dropdown li.active a:not(.btn) {
+    color: #00a8ff !important;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top: 50px;
+}
+
+.link-effect-4 .dropdown-content a, .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    margin: 0;
+}
+
+.dropdown-content a:hover {
+	background-color: #00a8ff;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.link-effect-4 li>a:hover{
+	color: #00a8ff !important;
+}
+
+.dropdown:hover .dropbtn {
+    
+}
+img.logo, img.banner{
+    max-height: 120px;
+}
+.caption-bg{
+    background-color: rgba(6, 6, 6, 0.39);
+}
+.btn.btn-submit.btn-green{
+    background-color: #00a8ff !important;
+    color: #fff;
+}
